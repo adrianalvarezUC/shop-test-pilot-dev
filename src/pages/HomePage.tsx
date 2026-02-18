@@ -16,9 +16,9 @@ const HomePage = () => {
     <main className="container mx-auto px-4 py-8">
       {/* Hero */}
       <section className="mb-12 rounded-lg bg-primary px-8 py-16 text-center text-primary-foreground">
-        <h1 className="text-4xl font-bold tracking-tight sm:text-5xl">Welcome to TestStore</h1>
+        <h1 className="text-4xl font-bold tracking-tight sm:text-5xl">My SandBox</h1>
         <p className="mx-auto mt-4 max-w-xl text-lg opacity-90">
-          A demo ecommerce site for testing Google Tag Manager, GA4 dataLayer events, consent banners, and server-side tracking.
+          A demo ecommerce site for testing
         </p>
       </section>
 
