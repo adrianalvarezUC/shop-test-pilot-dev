@@ -123,5 +123,18 @@ export function pushPurchase(
       shipping: 9.99,
       items: mapItems(items),
     },
+    user_data: {
+      em: "jsmith@example.com",
+      fn: "john",
+      ln: "smith",
+      ph: "16505554444",
+      external_id: "user_abc123",
+      ge: "m",
+      db: "19910526",
+      ct: "newyork",
+      st: "ny",
+      zp: "10001",
+      cn: "us",
+    },
   });
 }
