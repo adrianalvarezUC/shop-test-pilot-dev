@@ -33,6 +33,7 @@ const App = () => (
       <Sonner />
       <BrowserRouter>
         <CartProvider>
+          <RouteChangeTracker />
           <div className="flex min-h-screen flex-col">
             <Header />
             <div className="flex-1">
