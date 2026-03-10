@@ -13,6 +13,15 @@ function push(event: Record<string, unknown>) {
   window.dataLayer.push(event);
 }
 
+export function pushPageView(url: string, title: string) {
+  window.dataLayer = window.dataLayer || [];
+  window.dataLayer.push({
+    event: "page_view",
+    page_location: url,
+    page_title: title,
+  });
+}
+
 function mapItems(items: { product: Product; quantity: number }[]) {
   return items.map((item, index) => ({
     item_id: item.product.id,
